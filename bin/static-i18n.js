@@ -23,7 +23,8 @@ const minimistOptions = {
     'outputDir',
     'outputDefault',
     'outputOther',
-    'locales'
+    'locales',
+    'rootKey'
   ],
   alias: {
     l: 'locale',
@@ -33,6 +34,8 @@ const minimistOptions = {
     o: 'outputDir',
     v: 'version',
     h: 'help',
+    r: 'rootKey',
+    'root-key': 'rootKey',
     'output-dir': 'outputDir',
     'base-dir': 'baseDir',
     'translate-conditional-comments': 'translateConditionalComments',
@@ -65,6 +68,7 @@ const usageText = [
   '-o, --output-dir\toutput directory (default: i18n)',
   '-v, --version\t\tprints version and exits',
   '-h, --help\t\tprints this help and exits',
+  '-r, --root-key\t\tset the root key of the source',
   '',
   'Please check the README for more information:',
   'https://github.com/claudetech/node-static-i18n'
