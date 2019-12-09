@@ -15,7 +15,8 @@ const minimistOptions = {
     'xml',
     'allowHtml',
     'version',
-    'help'
+    'help',
+    'localeRootKey'
   ],
   string: [
     'locale',
@@ -24,7 +25,6 @@ const minimistOptions = {
     'outputDefault',
     'outputOther',
     'locales',
-    'rootKey'
   ],
   alias: {
     l: 'locale',
@@ -34,7 +34,7 @@ const minimistOptions = {
     o: 'outputDir',
     v: 'version',
     h: 'help',
-    r: 'rootKey',
+    r: 'localeRootKey',
     'root-key': 'rootKey',
     'output-dir': 'outputDir',
     'base-dir': 'baseDir',
