@@ -48,6 +48,7 @@ const minimistOptions = {
     'allow-html': 'allowHtml'
   },
   default: {
+    localeRootKey: false,
     useAttr: true,
     fixPaths: true,
     replace: false,
@@ -68,7 +69,7 @@ const usageText = [
   '-o, --output-dir\toutput directory (default: i18n)',
   '-v, --version\t\tprints version and exits',
   '-h, --help\t\tprints this help and exits',
-  '-r, --root-key\t\tset the root key of the source',
+  '-r, --root-key\t\tuse locale as source file root key',
   '',
   'Please check the README for more information:',
   'https://github.com/claudetech/node-static-i18n'
